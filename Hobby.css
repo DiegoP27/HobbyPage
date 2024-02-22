@@ -1,0 +1,45 @@
+body {
+    background-color: blanchedalmond; 
+    border-style: dashed;
+}
+h1 { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    text-align: center;
+}
+p {
+    color: brown;
+    text-align: center;
+    padding-right: 30%;
+    padding-left: 10%;
+}
+img {
+    display: block;
+    margin-bottom: 5px; 
+    margin-right: 10px;
+    float: left;
+}
+@keyframes colorFade {
+    0% { color: brown; }
+    25% { color: orange; }
+    50% { color: red; }
+    75% { color: orange; }
+    100% { color: brown; }
+}
+.fading-text {
+    animation: colorFade 5s infinite;
+}
+dl {
+    color: brown;
+}
+li {
+    margin-left: 0; 
+    padding-right: 200px; 
+}
+.H11 {
+    text-align: center;
+    animation: colorFade 5s infinite;
+    
+}
+
+    
